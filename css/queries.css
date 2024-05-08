@@ -1,161 +1,269 @@
-/* Small laptops and large landscape tablets  below 1184px */
-@media screen and (max-width: 74.3em) {
-  .about__copy {
-    gap: 8rem;
-  }
-  
-  .about-image {
-    width: 100%;
-  }
-  
-  .copy-features {
-    gap: 1.8rem;
-    padding-right: 2rem;
-  }
-  
-  .access-image {
-    width: 70%;
-  }
-  
-  .workflow__features {
-    flex-wrap: wrap;
-    gap: 4.8rem;
-  }
-  
-  .flex-text--col {
-    gap: 5rem;
-  }
+/* 1441px- 90.06em */
+@media screen and (max-width: 90.06em) {
+	.about__copy {
+		margin: 0;
+	}
+
+	.copy-image--box {
+		margin-left: -3.2rem;
+	}
+}
+
+/* Small laptops and large landscape tablets  below 1190px */
+@media screen and (max-width: 74.37em) {
+	.about__copy {
+		gap: 11rem;
+	}
+
+	.about-image {
+		max-width: 105%;
+		height: auto;
+	}
+
+	.copy-features {
+		gap: 1.8rem;
+		padding-right: 2rem;
+	}
+
+	.access-image {
+		width: 70%;
+	}
+
+	.workflow__features {
+		gap: 3rem;
+	}
+
+	.partners {
+		gap: 5rem;
+	}
 }
 
 /* Tablets and Landscape devices below 980px */
 @media screen and (max-width: 61.25em) {
-  .about__copy {
-    grid-template-columns: 1fr;
-    text-align: center;
-    padding: 0;
-    gap: 4rem;
-  }
-  
-  .copy-image--box {
-    margin: 0;
-  }
-  
-  .about-image {
-    width: 65%;
-  }
-  
-  .copy-features {
-    margin: auto;
-    max-width: fit-cntent;
-    padding: 0 2.4rem;
-    gap: 4rem;
-  }
-  
-  .flex-text--col {
-    gap: 3rem;
-  }
+	.header {
+		padding: 13rem 10rem 7.5rem;
+	}
+
+	.about__copy {
+		grid-template-columns: 1fr;
+		text-align: center;
+		padding: 0;
+		gap: 4rem;
+	}
+
+	.copy-image--box {
+		margin: 0;
+	}
+
+	.about-image {
+		width: 65%;
+	}
+
+	.copy-features {
+		margin: auto;
+		padding: 0 2.4rem;
+		gap: 6rem;
+	}
+
+	.workflow__features {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 6rem;
+	}
+
+	.partners {
+		flex-wrap: wrap;
+		gap: 3.5rem;
+	}
+
+	.flex--col {
+		gap: 5rem;
+	}
+
+	.icon--col {
+		margin-right: 3.5rem;
+	}
 }
 
-/* Smaller tablets below 680px */
-@media screen and (max-width: 42.5em) {.footer {
-    text-align: center;
-  }
-  
-  .footer__flex {
-    flex-direction: column;
-  }
-  
-  .flex-text--col {
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .flex-icon--box {
-    padding-top: 4rem;
-    margin: auto;
-  }
-  
-  .flex-icon--box .footer-nav {
-    gap: 4rem;
-  }
+/* 850px- 53.12em */
+@media screen and (max-width: 53.12em) {
+	.header {
+		padding: 13rem 6rem 7.5rem;
+	}
+
+	.container__about,
+	.container__access {
+		padding: 0 3.4rem 5rem;
+	}
+
+	.workflow,
+	.download {
+		padding: 0 3.4rem;
+	}
+
+	.flex--col {
+		gap: 4rem;
+	}
+
+	.icon--col {
+		margin-right: 3rem;
+	}
 }
 
-/* Mobile devices below 503px */
-@media screen and (max-width: 31.43em) { 
-  .header {
-    padding-top: 15rem;
-    background: url(../images/bg-header-mobile.png) center no-repeat;
-    background-size: cover;
-  }
-  
-  .container {
-    padding: 0 2.8rem;
-  }
-  
-  .hero__tittle {
-    font-size: 3.2rem;
-    letter-spacing: -.1rem;
-    line-height: 1.2;
-  }
-  
-  .hero__tittle-description {
-    font-size: 1.6rem;
-  }
-  
-  .button-box {
-    flex-direction: column;
-  }
-  
-  .button {
-    width: 100%;
-    font-size: 1.8rem;
-  }
-  
-  .section__header {
-    font-size: 2.8rem;
-    line-height: 1.2;
-  }
-  
-  .section__header-description {
-    font-size: 1.6rem;
-  }
-  
-  .footer-link:link,
-  .footer-link:visited {
-    font-size: 1.8rem;
-  }
+/* 770px- 48.12em */
+@media screen and (max-width: 48.12em) {
+	.header {
+		padding: 13rem 3.4rem 7.5rem;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.footer__flex {
+		flex-direction: column;
+		gap: 4rem;
+	}
+
+	.flex--col {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.icon--col {
+		margin-right: 0;
+	}
+
+	.footer-nav {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.social-icons {
+		flex-direction: row;
+		gap: 3.5rem;
+		margin: auto;
+	}
 }
 
-/* Smaller mobile devices below 348px */
-@media screen and (max-width: 21.75em) {
-  .header {
-    padding-top: 10rem;
-  }
-  
-  .hero__tittle {
-    font-size: 2.8rem;
-  }
-  
-  .hero__tittle-description {
-    font-size: 1.5rem;
-  }
-  
-  .button {
-    width: 100%;
-    font-size: 1.6rem;
-  }
-  
-  .section__header {
-    font-size: 2.4rem;
-    line-height: 1.2;
-  }
-  
-  .section__header-description {
-    font-size: 1.5rem;
-  }
-  
-  .footer-link:link,
-  .footer-link:visited {
-    font-size: 1.6rem;
-  }
+/* 720px- 45em */
+@media screen and (max-width: 45em) {
+	.hero__tittle {
+		font-size: 4rem;
+	}
+}
+
+/* Smaller tablets below 625px */
+@media screen and (max-width: 39.06em) {
+	.header {
+		padding: 13rem 2.4rem 7.5rem;
+	}
+
+	.hero__tittle {
+		font-size: 3.6rem;
+	}
+
+	.container__about,
+	.container__access {
+		padding: 0 2.4rem 5rem;
+	}
+
+	.workflow,
+	.download {
+		padding: 0 2.4rem;
+	}
+}
+
+/* Mobile devices below 545px*/
+@media screen and (max-width: 34.06em) {
+	.header {
+		background: url(../images/bg-header-mobile.png) center no-repeat;
+		background-size: cover;
+		padding: 13rem 0 5rem;
+	}
+
+	.container {
+		padding: 0 2.4rem;
+	}
+
+	.hero__tittle {
+		font-size: 3.8rem;
+		letter-spacing: -0.1rem;
+		line-height: 1.2;
+	}
+
+	.hero__tittle-description {
+		font-size: 1.8rem;
+	}
+
+	.button-box {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.button {
+		width: 100%;
+		font-size: 1.8rem;
+	}
+
+	.container__access,
+	.container__about {
+		padding-bottom: 5rem;
+	}
+
+	.section__header {
+		font-size: 3.2rem;
+		line-height: 1.2;
+	}
+
+	.section__header-description {
+		font-size: 1.7rem;
+	}
+
+	.partners {
+		flex-wrap: nowrap;
+		flex-direction: column;
+		gap: 6rem;
+	}
+
+	.footer-link:link,
+	.footer-link:visited {
+		font-size: 1.8rem;
+	}
+}
+
+/* Smaller mobile devices 425px */
+@media screen and (max-width: 26.56em) {
+	.container {
+		padding: 0 2rem;
+	}
+
+	.hero {
+		max-width: 42rem;
+	}
+
+	.container__access,
+	.container__about {
+		padding-bottom: 4rem;
+	}
+
+	.footer-link:link,
+	.footer-link:visited {
+		font-size: 1.6rem;
+	}
+}
+
+/* 390px- 24.37em */
+@media screen and (max-width: 24.37em) {
+	.hero__tittle {
+		font-size: 3.6rem;
+	}
+}
+
+/* 373px- 23em */
+@media screen and (max-width: 23.31em) {
+	.hero__tittle {
+		font-size: 3.4rem;
+	}
 }

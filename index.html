@@ -30,30 +30,28 @@
 	<body>
 		<header class="header">
 			<a href="#">
-				<img src="images/logo.svg" alt="company_logo" class="logo" />
+				<img
+					src="images/logo.svg"
+					alt="company_logo"
+					class="header-logo"
+				/>
 			</a>
+
+			<div class="hero container">
+				<h1 class="hero__tittle">A history of everything you copy</h1>
+				<p class="hero__tittle-description">
+					Clipboard allows you to track and organize everything you
+					copy. Instantly access your clipboard on all your devices.
+				</p>
+				<div class="button-box">
+					<button class="button">Download for iOS</button>
+					<button class="button button-blue">Download for Mac</button>
+				</div>
+			</div>
 		</header>
 
 		<main>
-			<section class="hero">
-				<div class="container">
-					<h1 class="hero__tittle">
-						A history of everything you copy
-					</h1>
-					<p class="hero__tittle-description">
-						Clipboard allows you to track and organize everything
-						you copy. Instantly access your clipboard on all your
-						devices.
-					</p>
-					<div class="button-box">
-						<button class="button">Download for iOS</button>
-						<button class="button button-blue">
-							Download for Mac
-						</button>
-					</div>
-				</div>
-			</section>
-
+			<!-- ABOUT -->
 			<section class="about">
 				<div class="container container__about">
 					<h2 class="section__header">Keep track of your snippets</h2>
@@ -102,6 +100,7 @@
 				</div>
 			</section>
 
+			<!-- ACCESS -->
 			<section class="access">
 				<div class="container container__access">
 					<h2 class="section__header">Access Clipboard anywhere</h2>
@@ -120,6 +119,7 @@
 				</div>
 			</section>
 
+			<!-- WORKFLOW -->
 			<section class="workflow">
 				<div class="container container__workflow">
 					<h2 class="section__header">Supercharge your workflow</h2>
@@ -170,6 +170,7 @@
 				</div>
 			</section>
 
+			<!-- PARTNERS -->
 			<section class="partners">
 				<img src="images/logo-google.png" alt="Google" />
 				<img src="images/logo-ibm.png" alt="IBM" />
@@ -181,6 +182,7 @@
 				/>
 			</section>
 
+			<!-- DOWNLOAD -->
 			<section class="download container">
 				<h2 class="section__header">Clipboard for iOS and Mac OS</h2>
 				<p class="section__header-description">
@@ -196,25 +198,27 @@
 		</main>
 
 		<footer class="footer">
-			<div class="footer__flex">
-				<div class="flex-text--col">
-					<a href="#">
-						<img
-							id="footer-icon"
-							src="images/logo.svg"
-							alt="clipboard logo"
-						/>
-					</a>
-					<nav>
+			<nav class="footer__flex">
+				<!-- footer links -->
+				<ul class="flex--col">
+					<li>
+						<a href="#" class="icon--col">
+							<img
+								id="footer-logo"
+								src="images/logo.svg"
+								alt="clipboard logo"
+							/>
+						</a>
+					</li>
+					<li>
 						<ul class="footer-nav">
 							<li><a href="#" class="footer-link">FAQs</a></li>
 							<li>
 								<a href="#" class="footer-link">Contact Us</a>
 							</li>
 						</ul>
-					</nav>
-
-					<nav>
+					</li>
+					<li>
 						<ul class="footer-nav">
 							<li>
 								<a href="#" class="footer-link"
@@ -225,9 +229,8 @@
 								<a href="#" class="footer-link">Press Kit</a>
 							</li>
 						</ul>
-					</nav>
-
-					<nav>
+					</li>
+					<li>
 						<ul class="footer-nav">
 							<li>
 								<a href="#" class="footer-link"
@@ -235,38 +238,37 @@
 								>
 							</li>
 						</ul>
-					</nav>
-				</div>
+					</li>
+				</ul>
 
-				<nav class="flex-icon--box">
-					<ul class="footer-nav social-icons">
-						<li>
-							<a href="#" class="footer-link"
-								><svg class="footer-icon">
-									<use
-										xlink:href="images/icon-facebook.svg#social-icon"
-									></use></svg
-							></a>
-						</li>
-						<li>
-							<a href="#" class="footer-link"
-								><svg class="footer-icon">
-									<use
-										xlink:href="images/icon-twitter.svg#social-icon"
-									></use></svg
-							></a>
-						</li>
-						<li>
-							<a href="#" class="footer-link"
-								><svg class="footer-icon">
-									<use
-										xlink:href="images/icon-instagram.svg#social-icon"
-									></use></svg
-							></a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+				<!-- footer icons -->
+				<ul class="footer-nav social-icons">
+					<li>
+						<a href="#" class="footer-link"
+							><svg class="footer-icon">
+								<use
+									xlink:href="images/icon-facebook.svg#social-icon"
+								></use></svg
+						></a>
+					</li>
+					<li>
+						<a href="#" class="footer-link"
+							><svg class="footer-icon">
+								<use
+									xlink:href="images/icon-twitter.svg#social-icon"
+								></use></svg
+						></a>
+					</li>
+					<li>
+						<a href="#" class="footer-link"
+							><svg class="footer-icon">
+								<use
+									xlink:href="images/icon-instagram.svg#social-icon"
+								></use></svg
+						></a>
+					</li>
+				</ul>
+			</nav>
 		</footer>
 	</body>
 </html>
